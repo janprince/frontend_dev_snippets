@@ -1,0 +1,5 @@
+# Topic
+Programming paradigms
+There are actually several styles of coding, also known as paradigms. A common style is called functional programming, or FP for short.
+
+* data separated from a function
