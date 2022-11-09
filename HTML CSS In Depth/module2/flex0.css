@@ -1,0 +1,52 @@
+.box {
+    background-color: aquamarine;
+    margin: 2px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* 
+justify-content. For item alignment on main axis.
+align-items. For item alignment on cross axis.
+
+*/
+
+
+/* .flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+
+/* The default for this property is ‘nowrap’ which means the items will span the entire width of the axis.  */
+
+
+/* .flex-container {
+    display: flex;
+    justify-content: space-between;
+} */
+
+
+/* .flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+} */
+
+/* This property can be used on individual items inside the flex.  */
+.box3{
+    background-color: blanchedalmond;
+    align-self: center;
+}
+
+/* gap property can be used to create space between the items along the main axis. You can also individually configure the gaps in rows and columns using row-gap and column-gap properties.   */
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 10px;
+}
