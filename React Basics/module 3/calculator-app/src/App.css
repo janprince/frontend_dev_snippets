@@ -1,0 +1,50 @@
+input,
+button {
+    background-color: #efefef;
+    border: 1px solid #999;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+input {
+    background: #fff;
+    border-color: #666;
+}
+
+button:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+button.disabled:hover {
+  background-color: #efefef;
+  cursor: not-allowed;
+}
+
+.resetInput,
+.resetResult {
+    background-color: rgb(221, 97, 72);
+    color: #fff;
+}
+.resetInput:hover,
+.resetResult:hover {
+  background-color: rgb(219, 83, 55);
+}
+
+.flex {
+    display: flex;
+}
+
+.gap-2 {
+    gap: 0.25rem;
+}
+
+.mt-4 {
+    margin-top: 0.5rem;
+}
+
+.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
