@@ -1,7 +1,7 @@
 // object: collections of related properties
 
 
-var storeManager = {movement: 4, socialSkills: 50, streetSmarts: 50, Health: 30}
+var storeManager = {movement: 4, socialSkills: 50, streetSmarts: 50, Health: 30}  // JavaScript automatically converts keys to a string value
 storeManager.nextAchievement = "get promoted"
 
 console.log(storeManager)
@@ -9,9 +9,12 @@ console.log(storeManager)
 storeManager.movement ++;
 console.log(storeManager.movement) // 5
 
+// log the object keys
+console.log(Object.keys(storeManager))  // an array of keys as strings
+
+
 
 // alternative syntax to the dot notation
-
 var house2 = {};
 house2["rooms"] = 4;
 house2['color']= "pink";

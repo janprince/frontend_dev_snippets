@@ -34,7 +34,7 @@ var obj = objectMaker(5)
 console.log(obj.prop)
 
 
-// ==================================== Anonymous function =============================================
+// ==================================== Anonymous(Nameless) function =============================================
 var name = "Prince"
 
 var greet = function (personName) {
@@ -42,3 +42,10 @@ var greet = function (personName) {
 }
 
 console.log(greet("Gyan"))
+
+// ==================================== Arrow function =============================================
+var divide = (a, b) => {
+    return a/b;
+}
+
+console.log(divide(5, 2))  // 2.5
