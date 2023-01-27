@@ -1,4 +1,5 @@
 // object: collections of related properties
+// JavaScript objects are containers for named values, called properties and methods.
 
 
 var storeManager = {movement: 4, socialSkills: 50, streetSmarts: 50, Health: 30}  // JavaScript automatically converts keys to a string value
