@@ -10,7 +10,6 @@ for (var i = 0; i < letters.length; i++){
 
 
 
-
 var str = "Hello";
 str.match("jello"); // null
 

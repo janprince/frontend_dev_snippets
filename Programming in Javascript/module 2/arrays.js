@@ -31,6 +31,7 @@ dog["type"] = "corgi";
 console.log(dog)
 
 
+// ======================== forEach =========================================
 
-// var colors2 = ['red', 'orange', 'yellow', 'green', 'blue', 'purple', 'pink'];
-// colors2.forEach(console.log)
+var colors2 = ['red', 'orange', 'yellow', 'green', 'blue', 'purple', 'pink'];
+colors2.forEach((e) => console.log(e))

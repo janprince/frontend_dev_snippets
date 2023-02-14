@@ -5,6 +5,7 @@
  */
 var subarraysDivByK = function(nums, k) {
     let number = 0;
+    
     for(var i = 0; i < nums.length; i++) {
         let new_arr = [nums[i]]
         if (nums[i] % k == 0){

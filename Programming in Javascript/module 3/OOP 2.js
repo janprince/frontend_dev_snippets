@@ -2,6 +2,7 @@
 
 class Car {
     constructor(color, speed) {
+        // properties
         this.color = color;
         this.speed = speed;
     }
