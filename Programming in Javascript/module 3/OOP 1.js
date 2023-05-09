@@ -11,7 +11,7 @@ console.log(toPay)
 
 
 
-// Object oreinted programming paradigm - using objects (Group data)
+// Object oriented programming paradigm - using objects (Group data)
 var purchase1 = {
     shoes: 100,
     stateTax: 1.2,

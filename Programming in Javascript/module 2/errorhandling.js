@@ -1,4 +1,4 @@
-// common types of erro
+// common types of error
 /**
  * Syntax Error
  * Type Error

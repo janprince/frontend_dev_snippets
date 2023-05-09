@@ -34,4 +34,4 @@ console.log(dog)
 // ======================== forEach =========================================
 
 var colors2 = ['red', 'orange', 'yellow', 'green', 'blue', 'purple', 'pink'];
-colors2.forEach((e) => console.log(e))
+colors2.forEach((e) => console.log(colors2.indexOf(e)+1,  e))

@@ -1,11 +1,11 @@
 // object: collections of related properties
 // JavaScript objects are containers for named values, called properties and methods.
-// object is an unordered, noniterable collection of key value pairs 
+// object is an unordered, noniterable collection of key:value pairs 
 // in objects, keys can only be strings or symbols
 
 
 
-var storeManager = {movement: 4, socialSkills: 50, streetSmarts: 50, Health: 30}  // JavaScript automatically converts keys to a string value
+var storeManager = {movement: 4, socialSkills: 50, streetSmarts: 50, Health: 30}  // JavaScript automatically converts keys to a string data type
 storeManager.nextAchievement = "get promoted"
 
 console.log(storeManager)

@@ -14,3 +14,7 @@ for (prop in sportsCar) {
 for (prop of Object.keys(sportsCar)) {
     console.log("🎯", prop + ": " + sportsCar[prop])
 }
+
+for (prop of ["n", '4r']) {
+    console.log(prop)
+}

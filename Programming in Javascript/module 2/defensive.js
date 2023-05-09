@@ -24,5 +24,5 @@ console.log("====================== it ====================")
 letterFinder("it", 'i')
 
 
-letterFinder("prince", 'ce')
-letterFinder(3, 4)
+// letterFinder("prince", 'ce')
+// letterFinder(3, 4)
