@@ -28,6 +28,7 @@ showItinerary(...top3) // ... spreads the array; The spread operator allows you 
 let nums = [3, 4, 5, 6]
 let nums_copy = [nums[0], nums[1], nums[2], nums[3], 239]
 
+
 // using spread operator
 let numsCopy = [...nums, 239]
 

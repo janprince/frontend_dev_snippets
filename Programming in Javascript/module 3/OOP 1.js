@@ -1,4 +1,5 @@
-// functional programming (separate data)
+// =========================  functional programming (separate data) =================================
+
 var shoes = 100;
 var stateTax = 1.2;
 
@@ -11,7 +12,9 @@ console.log(toPay)
 
 
 
-// Object oriented programming paradigm - using objects (Group data)
+
+// =================== Object oriented programming paradigm - using objects (Group data) ===============
+
 var purchase1 = {
     shoes: 100,
     stateTax: 1.2,
